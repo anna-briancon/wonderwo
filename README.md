@@ -12,7 +12,13 @@ npm install
 ## 2. Configurer son .env
 
 Créer un fichier .env avec `DATABASE_URL`.
-
+```bash
+DATABASE_URL="mysql://root:@localhost:3306/wonderwo?socket=/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock"
+```
+ou 
+```bash
+DATABASE_URL="mysql://root:@localhost:3306/wonderwo
+```
 
 ## 3. Créer la base de données vide
 
